@@ -11,7 +11,7 @@ export const renderPending =(elementId)=>{
     if(!element)
         throw new Error (`Element ${elementId} no found`);
 
-    element.innerHTML = todoStore.getTodos(Filters.Pending).length
+    element.innerHTML = todoStore.getTodos(Filters.Pending).length;
     
 
 }

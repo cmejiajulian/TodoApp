@@ -106,6 +106,13 @@ return state.filter;
 }
 
 
+
+function increment() {
+    state.count++;
+    console.log(state.count);
+}
+
+
 export default{
     addTodo,
     deleteCompleted,
@@ -116,5 +123,6 @@ export default{
     loadStore,
     setFilter,
     toggleTodo,
+    increment,
     
 }
