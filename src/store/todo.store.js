@@ -9,11 +9,10 @@ export const Filters ={
 const state = {
 
     todos:[
-        new Todo ('Piedra del alma'),
-        new Todo ('Piedra del infinito'),
-        new Todo ('Piedra del tiempo'),
-        new Todo ('Piedra del infierno'),
-        new Todo ('Piedra de la oscuridad '),
+        new Todo ('info 1'),
+        new Todo ('info 2'),
+        new Todo ('Info 3'),
+        
     ],
     filter: Filters.All,
 }
